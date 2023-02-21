@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Lab {
     /**
@@ -18,6 +19,7 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+        ArrayList<String> list = new ArrayList<String>();
+        return list;
     }
 }
